@@ -1,0 +1,104 @@
+body {
+    background-color: hsl(36,43%,85%);
+}
+/*.fondo{
+    background-image: url(./imagenes/Menú.png);
+    width: auto;
+    height: 200px;
+    background-color: transparent;
+    position: relative;
+}*/
+.fondo::before{
+    content: '';
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(./imagenes/Menú.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    z-index: 1;
+    width: auto;
+    height: 148px;
+
+}
+
+
+span {
+    font-family: Helvetica, sans-serif;
+    color: hsl(345, 100%, 25%);
+    font-size: 35px;
+    border-bottom: solid 3px white;
+}
+span{
+    display: inline-block;
+    height: 80px;
+    width: 500px;
+    padding: 10px 0;
+    margin: 0 30%;
+    text-align: center;
+    z-index: 1;
+}
+.imagen1{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.imagen2{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+div.container1{
+    background-color:hsl(184, 9%, 85%) ;
+    margin: auto;
+    padding: 5px 5px;
+    
+
+
+}
+div.container2{
+    background-color: hsl(184, 9%, 85%);
+    margin: auto;
+    padding: 5px 5px;
+}
+
+main{
+    background-color: #fff;
+    padding: 15px 15px;
+    z-index: 1;
+}
+
+h2{
+    margin: 10px 10px;
+    font-family:'sans-serif' ;
+    font-size: 24px;
+    z-index: 1;
+}
+p{
+    margin: 10px 10px;
+    font-size: 16px;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+a{
+    margin: 20px;
+    text-decoration: none;
+    font-style: oblique;
+    color: hsl(204,70%, 53%);
+    font-weight: bolder;
+}
+
+footer{
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 14px;
+    color: hsl(345, 100%, 25%);
+}

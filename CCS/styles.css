@@ -1,0 +1,60 @@
+html{
+   /* background-image: url(./imagenes/Fondo.jpg);*/
+    
+}
+header{
+    background-color: hsl(0, 53%, 58%);
+    color: hsl(150, 53%, 58%);;
+    text-align: center;
+    padding: 30px 0;
+    display: block;
+}
+body{
+    font-family: arial; 
+    background-color: hsl(0, 53%, 58%);
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    
+}
+
+.container{
+    max-width: 100%;
+    margin: 20px;
+    padding: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+font-family: Helvetica, sans-serif;
+font-size: 24px;
+font-style: italic;
+margin: 20px;
+font-weight: bolder;
+}
+
+p{
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 18px;
+font-style: italic;
+text-align: justify;
+line-height: 1.6;
+margin: 20px;
+
+}
+
+footer{
+    background-color: hsl(11, 6%, 32%);
+    color: hsl(192, 15%, 99%);
+    text-align:center;
+    margin: 0;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 16px;
+}
